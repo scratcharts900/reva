@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "description": "",
+    "description": "this was for the dead human",
     "name": "Reva",
     "uuid": "5a490556-9713-3252-99a6-249f4959972e",
     "version": [
@@ -17,7 +17,7 @@
   },
   "modules": [
     {
-      "description": "",
+      "description": "this was for the dead human",
       "type": "resources",
       "uuid": "15992009-6e21-3ea6-a967-fa8eb41f9deb",
       "version": [
