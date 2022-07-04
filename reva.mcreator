@@ -127,6 +127,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jai_hoe_recipe"
+    },
+    {
+      "name": "JaiMaster",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_master"
+    },
+    {
+      "name": "Laim",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laim"
+    },
+    {
+      "name": "Herobrine",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine"
     }
   ],
   "variable_elements": [],
@@ -137,9 +161,11 @@
       "item.reva:jai_ingot.name": "Jai",
       "item.reva:jai_axe.name": "Jai Axe",
       "item.reva:jai_hoe.name": "Jai Hoe",
+      "item.reva:laim.name": "LiamJones",
       "tile.reva:jai_block.name": "Block of Jai",
       "item.reva:jai_pickaxe.name": "Jai Pickaxe",
       "item.reva:jai_sword.name": "Jai Sword",
+      "item.spawn_egg.entity.reva:herobrine.name": "Herobrine Spawn Egg",
       "item.reva:jai_shovel.name": "Jai Shovel"
     }
   },

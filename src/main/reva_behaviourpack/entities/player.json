@@ -38,6 +38,11 @@
           "damage": 106
         }
       },
+      "reva:laim": {
+        "minecraft:attack": {
+          "damage": 42
+        }
+      },
       "minecraft:add_bad_omen": {
         "minecraft:spell_effects": {
           "add_effects": [
@@ -271,6 +276,19 @@
               ]
             },
             "event": "reva:jai_hoe"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:laim"
+                }
+              ]
+            },
+            "event": "reva:laim"
           }
         ]
       }
@@ -288,7 +306,8 @@
             "reva:jai_axe",
             "reva:jai_sword",
             "reva:jai_shovel",
-            "reva:jai_hoe"
+            "reva:jai_hoe",
+            "reva:laim"
           ]
         }
       },
@@ -324,6 +343,13 @@
         "add": {
           "component_groups": [
             "reva:jai_hoe"
+          ]
+        }
+      },
+      "reva:laim": {
+        "add": {
+          "component_groups": [
+            "reva:laim"
           ]
         }
       },

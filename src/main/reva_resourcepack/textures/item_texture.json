@@ -8,6 +8,9 @@
     "jai_ingot": {
       "textures": "textures/items/jai_ingot"
     },
+    "laim": {
+      "textures": "textures/items/laim"
+    },
     "jai_shovel": {
       "textures": "textures/items/jai_shovel"
     },

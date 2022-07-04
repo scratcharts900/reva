@@ -1,0 +1,82 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "reva:herobrine",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "reva:herobrine": {}
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": [
+          "reva:herobrine",
+          "herobrine",
+          "mob",
+          "monster"
+        ]
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 32767 : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/reva_herobrine.json"
+      },
+      "minecraft:burns_in_daylight": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:health": {
+        "value": 1024,
+        "max": 1024
+      },
+      "minecraft:attack": {
+        "damage": 303
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {},
+      "minecraft:fire_immune": true,
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1,
+        "speed_multiplier": 1.2,
+        "attack_once": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3,
+        "alert_same_type": false
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 4
+      },
+      "minecraft:behavior.random_swim": {
+        "priority": 5
+      },
+      "minecraft:follow_range": {
+        "value": 64
+      }
+    },
+    "events": {}
+  }
+}
