@@ -1,9 +1,147 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "JaiIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_ingot"
+    },
+    {
+      "name": "JaiOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_ore"
+    },
+    {
+      "name": "JaiBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_block"
+    },
+    {
+      "name": "JaiOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_ore_block_recipe"
+    },
+    {
+      "name": "JaiBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_block_ore_recipe"
+    },
+    {
+      "name": "JaiOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_ore_smelting"
+    },
+    {
+      "name": "JaiPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_pickaxe"
+    },
+    {
+      "name": "JaiAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_axe"
+    },
+    {
+      "name": "JaiSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_sword"
+    },
+    {
+      "name": "JaiShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_shovel"
+    },
+    {
+      "name": "JaiHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_hoe"
+    },
+    {
+      "name": "JaiPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_pickaxe_recipe"
+    },
+    {
+      "name": "JaiAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_axe_recipe"
+    },
+    {
+      "name": "JaiSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_sword_recipe"
+    },
+    {
+      "name": "JaiShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_shovel_recipe"
+    },
+    {
+      "name": "JaiHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jai_hoe_recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "tile.reva:jai_ore.name": "Jai Ore",
+      "item.reva:jai_ingot.name": "Jai",
+      "item.reva:jai_axe.name": "Jai Axe",
+      "item.reva:jai_hoe.name": "Jai Hoe",
+      "tile.reva:jai_block.name": "Block of Jai",
+      "item.reva:jai_pickaxe.name": "Jai Pickaxe",
+      "item.reva:jai_sword.name": "Jai Sword",
+      "item.reva:jai_shovel.name": "Jai Shovel"
+    }
   },
   "foldersRoot": {
     "name": "~",

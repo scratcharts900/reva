@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "reva:jai_hoe_recipe"
+    },
+    "groups": [
+      "reva"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      " 3",
+      " 5"
+    ],
+    "key": {
+      "0": {
+        "item": "reva:jai_ingot"
+      },
+      "1": {
+        "item": "reva:jai_ingot"
+      },
+      "3": {
+        "item": "minecraft:stick"
+      },
+      "5": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "reva:jai_hoe",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "reva:jai_pickaxe_recipe"
+    },
+    "groups": [
+      "reva"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 ",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "reva:jai_ingot"
+      },
+      "1": {
+        "item": "reva:jai_ingot"
+      },
+      "2": {
+        "item": "reva:jai_ingot"
+      },
+      "4": {
+        "item": "minecraft:stick"
+      },
+      "7": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "reva:jai_pickaxe",
+      "count": 1
+    }
+  }
+}

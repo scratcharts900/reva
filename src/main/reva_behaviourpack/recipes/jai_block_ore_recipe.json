@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "reva:jai_block_ore_recipe"
+    },
+    "groups": [
+      "reva"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "reva:jai_block"
+      }
+    ],
+    "result": {
+      "item": "reva:jai_ingot",
+      "count": 9
+    }
+  }
+}

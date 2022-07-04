@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "reva:jai_ore_smelting"
+    },
+    "groups": [
+      "reva"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "reva:jai_ore"
+    },
+    "output": {
+      "item": "reva:jai_ingot"
+    }
+  }
+}

@@ -13,6 +13,31 @@
           "damage": 1
         }
       },
+      "reva:jai_pickaxe": {
+        "minecraft:attack": {
+          "damage": 28
+        }
+      },
+      "reva:jai_axe": {
+        "minecraft:attack": {
+          "damage": 95
+        }
+      },
+      "reva:jai_sword": {
+        "minecraft:attack": {
+          "damage": 65
+        }
+      },
+      "reva:jai_shovel": {
+        "minecraft:attack": {
+          "damage": 20
+        }
+      },
+      "reva:jai_hoe": {
+        "minecraft:attack": {
+          "damage": 106
+        }
+      },
       "minecraft:add_bad_omen": {
         "minecraft:spell_effects": {
           "add_effects": [
@@ -181,6 +206,71 @@
               ]
             },
             "event": "minecraft:event_normal_player"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:jai_pickaxe"
+                }
+              ]
+            },
+            "event": "reva:jai_pickaxe"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:jai_axe"
+                }
+              ]
+            },
+            "event": "reva:jai_axe"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:jai_sword"
+                }
+              ]
+            },
+            "event": "reva:jai_sword"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:jai_shovel"
+                }
+              ]
+            },
+            "event": "reva:jai_shovel"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "reva:jai_hoe"
+                }
+              ]
+            },
+            "event": "reva:jai_hoe"
           }
         ]
       }
@@ -193,7 +283,48 @@
           ]
         },
         "remove": {
-          "component_groups": []
+          "component_groups": [
+            "reva:jai_pickaxe",
+            "reva:jai_axe",
+            "reva:jai_sword",
+            "reva:jai_shovel",
+            "reva:jai_hoe"
+          ]
+        }
+      },
+      "reva:jai_pickaxe": {
+        "add": {
+          "component_groups": [
+            "reva:jai_pickaxe"
+          ]
+        }
+      },
+      "reva:jai_axe": {
+        "add": {
+          "component_groups": [
+            "reva:jai_axe"
+          ]
+        }
+      },
+      "reva:jai_sword": {
+        "add": {
+          "component_groups": [
+            "reva:jai_sword"
+          ]
+        }
+      },
+      "reva:jai_shovel": {
+        "add": {
+          "component_groups": [
+            "reva:jai_shovel"
+          ]
+        }
+      },
+      "reva:jai_hoe": {
+        "add": {
+          "component_groups": [
+            "reva:jai_hoe"
+          ]
         }
       },
       "minecraft:gain_bad_omen": {

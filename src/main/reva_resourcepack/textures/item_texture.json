@@ -1,5 +1,24 @@
 {
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
-  "texture_data": {}
+  "texture_data": {
+    "jai_pickaxe": {
+      "textures": "textures/items/jai_pickaxe"
+    },
+    "jai_ingot": {
+      "textures": "textures/items/jai_ingot"
+    },
+    "jai_shovel": {
+      "textures": "textures/items/jai_shovel"
+    },
+    "jai_sword": {
+      "textures": "textures/items/jai_sword"
+    },
+    "jai_hoe": {
+      "textures": "textures/items/jai_hoe"
+    },
+    "jai_axe": {
+      "textures": "textures/items/jai_axe"
+    }
+  }
 }

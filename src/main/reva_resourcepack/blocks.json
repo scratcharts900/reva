@@ -1,3 +1,25 @@
 {
-  "format_version": "1.16.100"
+  "format_version": "1.16.100",
+  "reva:jai_ore": {
+    "textures": {
+      "up": "reva_jai_ore_up",
+      "down": "reva_jai_ore_down",
+      "south": "reva_jai_ore_south",
+      "north": "reva_jai_ore_north",
+      "west": "reva_jai_ore_west",
+      "east": "reva_jai_ore_east"
+    },
+    "sound": "stone"
+  },
+  "reva:jai_block": {
+    "textures": {
+      "up": "reva_jai_block_up",
+      "down": "reva_jai_block_down",
+      "south": "reva_jai_block_south",
+      "north": "reva_jai_block_north",
+      "west": "reva_jai_block_west",
+      "east": "reva_jai_block_east"
+    },
+    "sound": "metal"
+  }
 }
