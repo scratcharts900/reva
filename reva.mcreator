@@ -151,6 +151,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "herobrine"
+    },
+    {
+      "name": "Creators",
+      "type": "function",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creators"
     }
   ],
   "variable_elements": [],
@@ -175,19 +183,20 @@
   },
   "workspaceSettings": {
     "modid": "reva",
-    "modName": "reva",
+    "modName": "Reva",
     "version": "1.0.0",
-    "author": "quinl, MCreator",
+    "author": "ScratchArts900",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "reva",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "addon-1.18.x",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "MCreator was used",
     "modElementsPackage": "net.mcreator.reva",
     "lockBaseModFiles": false
   },

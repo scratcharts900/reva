@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "description": "",
-    "name": "reva",
+    "name": "Reva",
     "uuid": "b9821d24-f1e1-3bc6-bb2a-9d0d0ef44888",
     "version": [
       1,
@@ -39,7 +39,7 @@
   ],
   "metadata": {
     "authors": [
-      "quinl, MCreator"
+      "ScratchArts900"
     ],
     "url": "https://mcreator.net"
   }

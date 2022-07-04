@@ -1,0 +1,9 @@
+{
+  "_fv": 28,
+  "_type": "function",
+  "definition": {
+    "code": "say Mod created by CoderQC and ScratchArts900",
+    "name": "about",
+    "namespace": "mod"
+  }
+}
